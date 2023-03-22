@@ -23,7 +23,6 @@ body {
   min-width: 32rem;
   font-size: 1.6rem;
   font-family: var(--fuente-principal);
-  color: var(--color-claro);
 }
 
 h1,
@@ -95,6 +94,7 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
+  color: var(--color-claro);
 }
 
 @media (min-width:768px) {
@@ -232,4 +232,39 @@ textarea {
   .slogan__titulo {
     font-size: 4rem;
   }
+}
+
+/* * NOSOTROS */
+.nosotros {
+  max-width: 80rem;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  background-image: url("../img/nosotros.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 75rem;
+}
+
+@media (min-width:768px) {
+  .nosotros {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url("../img/nosotros.jpg");
+  }
+}
+
+.nosotros__content {
+  padding: 4rem;
+  background-color: var(--color-claro);
+}
+
+@media (min-width:768px) {
+  .nosotros__content {
+    grid-column: 2 / 4;
+  }
+}
+
+.nosotros__texto {
+  line-height: 1.5;
 }
