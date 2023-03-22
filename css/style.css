@@ -1,0 +1,86 @@
+:root {
+  /* Fonts */
+  --fuente-principal: 'Raleway', sans-serif;
+
+  /* Colors */
+  --color-gris: #343a40;
+  --color-oscuro: #111111;
+  --color-claro: #fff;
+}
+
+/* * GLOBALES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-width: 32rem;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-family: var(--fuente-principal);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 4rem 0;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 5.8rem;
+}
+
+
+h3 {
+  font-size: 5rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-oscuro);
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+select,
+textarea {
+  outline: none;
+}
+
+[class*="-container"] {
+  width: min(95%, 120rem);
+  margin: 0 auto;
+}
+
+/* * Utilidades */
+.btn {
+  padding: .5rem 2rem;
+  border: 1px solid var(--color-gris);
+  color: var(--color-claro);
+  background-color: var(--color-gris);
+}
+
+.btn:hover {
+  color: var(--color-gris);
+  background-color: var(--color-claro);
+}
