@@ -351,16 +351,19 @@ textarea {
   .basico .modelos__content {
     grid-column: 1/3;
     grid-row: 2 / 3;
+    padding-left: 0;
   }
 
   .elite .modelos__content {
     grid-column: 1/3;
     grid-row: 1 / 2;
+    padding-left: 0;
   }
 
   .premier .modelos__content {
     grid-column: 2/4;
     grid-row: 1 / 2;
+    padding-right: 0;
   }
 }
 
