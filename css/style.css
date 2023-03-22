@@ -440,3 +440,42 @@ textarea {
   height: 100%;
   object-fit: cover;
 }
+
+/* * Footer */
+
+.footer {
+  height: 50rem;
+  margin-top: 5rem;
+  padding: 2rem 0;
+  background-image: url('../img/footer_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-claro)
+}
+
+@media (min-width:768px) {
+  .footer {
+    height: 30rem;
+  }
+}
+
+.footer__content {
+  height: calc(50rem - 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (min-width:768px) {
+  .footer__content {
+    height: calc(30rem - 4rem);
+  }
+}
+
+.footer__copy {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: var(--color-claro);
+  background-color: var(--color-gris);
+}
