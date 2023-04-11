@@ -20,4 +20,7 @@ Para acceder a la página, simplemente abra el archivo index.html en su navegado
 ## Contribución
 
 No se ha recibido contribuciones hasta este momento.
+
+# preview
+
 ![](https://i.imgur.com/dMkfpGa.png)
