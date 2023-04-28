@@ -23,4 +23,4 @@ No se ha recibido contribuciones hasta este momento.
 
 # preview
 
-![](https://i.imgur.com/dMkfpGa.png)
+![](https://i.imgur.com/FbjTzk3.png)
